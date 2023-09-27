@@ -51,6 +51,8 @@ main {
 .container__img__txt {
     width: 100%;
     text-align: right;
+    padding-left: 3rem;
+    
 }
 
 .container__img__txt2 {
@@ -70,7 +72,7 @@ main {
 
 .text-box {
     width: 30rem;
-    margin: 3rem ;
+    margin: 3rem;
 }
 
 .text-box h1 {
