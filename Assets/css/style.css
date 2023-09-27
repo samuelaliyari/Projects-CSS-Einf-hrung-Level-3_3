@@ -53,6 +53,14 @@ main {
     text-align: right;
 }
 
+.container__img__txt2 {
+    width: 100%;
+    text-align: right;
+    padding: 2rem 5rem;
+
+
+}
+
 .text-container {
 
     text-align: left;
@@ -97,7 +105,7 @@ main {
 .container__img__txt-left {
     /* width: 100vw; */
     display: block;
-    padding: 1rem;
+    padding: 2rem 5rem;
 
 }
 .text-container-left {
