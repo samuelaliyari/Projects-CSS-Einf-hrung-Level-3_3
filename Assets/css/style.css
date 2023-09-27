@@ -1,0 +1,300 @@
+
+@font-face {
+    font-family: Lato_L;
+    src: url(../font/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Marieweatehr_B;
+    src: url(../font/Merriweather-Bold.ttf);
+}
+
+@font-face {
+    font-family: Marieweatehr_L;
+    src: url(../font/Merriweather-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+text-align: right;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem 0.5rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Lato_L;
+    text-transform: uppercase;
+
+}
+
+main {
+    padding: 1rem;
+    margin: 0 0 0 3rem ;
+}
+
+.container__img__txt {
+    width: 100%;
+    text-align: right;
+}
+
+.text-container {
+
+    text-align: left;
+    background: url(../img/illustration1.gif) right / contain no-repeat;
+    height: 30rem;
+}
+
+.text-box {
+    width: 30rem;
+    margin: 3rem ;
+}
+
+.text-box h1 {
+    font-family: Marieweatehr_B;
+    font-size: 3rem;
+}
+
+.text-box p{
+    padding-top: 1rem;
+    font-family: Marieweatehr_L;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+
+.text-box  a {
+    display: inline-block;
+    padding: 0.8rem 1rem;
+    margin: 1rem 0.5rem 1rem 0;
+    font-family: Marieweatehr_L;
+    border-radius: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.20)
+    
+}
+
+.text-box a:nth-of-type(1) {
+    background-color: black;
+    color: white;
+    
+}
+
+
+.container__img__txt-left {
+    /* width: 100vw; */
+    display: block;
+    padding: 1rem;
+
+}
+.text-container-left {
+    background: url(../img/illustration2.png) left / contain no-repeat;
+    height: 30rem;
+    
+}
+.text-box-left {
+    width: 30rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 4rem;
+    margin-top: 3rem;
+
+}
+
+.text-box-left h1 {
+    font-family: Marieweatehr_B;
+    font-size: 3rem;
+}
+
+.text-box-left p{
+    padding-top: 1rem;
+    font-family: Marieweatehr_L;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+
+.text-container-2 {
+    text-align: left;
+    background: url(../img/illustration3.png) right / contain no-repeat;
+    height: 30rem;
+}
+
+
+.ifa {
+    text-align: center;
+}
+
+
+.ifa-text {
+    width: 70vw;
+    margin: 10rem auto;
+}
+
+.ifa-text h2 {
+    font-family: Marieweatehr_B;
+    font-size: 3rem;
+}
+
+
+.ifa-text p{
+    padding-top: 2rem;
+    font-family: Marieweatehr_L;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.ifa-img-box img{
+    width: 25rem;
+
+}
+
+.eou {
+    width: 70vw;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+.eou-text h2 {
+    font-family: Marieweatehr_B;
+    font-size: 3rem;
+}
+
+.eou-text p {
+    padding-top: 2rem;
+    font-family: Marieweatehr_L;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.eou-text {
+    margin-bottom: 4rem;
+}
+
+.eou img {
+    width: 30rem;
+    padding: 1rem;
+
+}
+
+.di {
+    width: 60vw;
+    margin: 10rem auto;
+    text-align: center;
+
+}
+.di-text h2{
+    font-family: Marieweatehr_B;
+    font-size: 3rem;
+}
+
+.di-text p {
+    padding-top: 2rem;
+    font-family: Marieweatehr_L;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+
+.di-box {
+    background-color: hsla(206, 82%, 63%, 0.102);
+    width: 18rem;
+    margin: 0 auto;
+}
+
+.di-box h3 {
+    padding: 3rem;
+    font-family: Marieweatehr_B;
+    font-size: 1.5rem;
+
+}
+
+.di-box h2 {
+    padding-bottom: 3rem;
+    font-family: Marieweatehr_B;
+    font-size: 5rem;
+}
+
+.di-box h4 {
+    font-family: Marieweatehr_l;
+    font-size: 1rem;
+    color:#7e7e7e;
+    padding-bottom: 1rem;
+}
+
+.di-box p {
+    font-family: Marieweatehr_l;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.di-box a {
+    padding: 0.7rem 1.5rem;
+    display: inline-block;
+    background-color: #55ACEE;
+    margin-bottom: 2rem;
+    color: white;
+    border-radius: 0.4rem;
+}
+
+
+
+footer {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+footer h2 {
+    font-family: Marieweatehr_B;
+    font-size: 2rem;
+}
+
+footer h3 {
+    font-family: Marieweatehr_l;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+footer h4 {
+    font-family: Marieweatehr_l;
+}
+
+footer a {
+    font-family: Marieweatehr_l;
+    font-size: 1rem;
+}
+
+
+
+
+footer a:nth-of-type(2) {
+    color: #FCAF45;
+}
+
+footer a:nth-of-type(3) {
+    color: #55ACEE;
+}
+
+footer a:nth-of-type(4) {
+    color: #C4302B;
+}
+
+
+
+.eou img:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.656);
+}
